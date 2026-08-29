@@ -31,4 +31,24 @@ export const projects = [
     github: "https://github.com/mehrbod1384/padel-booking-system",
     demo: "https://padel-booking-system-sable.vercel.app/",
   },
+  {
+    title: "چراغ",
+    description:
+      "سامانه‌ای برای مشاهده زمان‌بندی قطعی برق که به کاربر امکان ثبت، مشاهده و مدیریت شناسه‌های مختلف را می‌دهد.",
+
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+
+    github: "https://github.com/mehrbod1384/Cheragh",
+    demo: "https://cheragh.vercel.app/login",
+  },
+  {
+    title: "پنل مدیریت فروشگاه",
+    description:
+      "داشبورد مدیریت فروشگاه با قابلیت احراز هویت، مدیریت صفحات پنل، مسیریابی محافظت‌شده و رابط کاربری ریسپانسیو.",
+
+    technologies: ["Vue.js", "Nuxt.js", "Pinia", "JavaScript"],
+
+    github: "https://github.com/mehrbod1384/Shop-Admin",
+    demo: "https://shop-admin-opal.vercel.app/",
+  },
 ];

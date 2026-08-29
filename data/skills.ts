@@ -8,6 +8,8 @@ export const skillGroups = [
       "TypeScript",
       "React",
       "Next.js",
+      "Vue.js",
+      "Nuxt.js",
       "Tailwind CSS",
     ],
   },

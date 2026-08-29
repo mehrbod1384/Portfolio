@@ -14,7 +14,7 @@ export default function ProjectCard({
   demo,
 }: ProjectCardProps) {
   return (
-    <div className="rounded-xl border border-(--line) bg-(--surface) p-6">
+    <div className="flex h-full flex-col rounded-xl border border-(--line) bg-(--surface) p-6">
       <h3 className="mb-3 text-xl font-bold">{title}</h3>
 
       <p className="mb-5 text-sm leading-7 text-(--muted)">{description}</p>
@@ -30,7 +30,7 @@ export default function ProjectCard({
         ))}
       </div>
 
-      <div className="flex gap-4">
+      <div className="mt-auto flex gap-4">
         <a
           href={github}
           target="_blank"
